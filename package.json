@@ -1,8 +1,16 @@
 {
   "name": "node-example",
   "version": "0.0.1",
+  "license": "GPL",
   "engines": {
     "node": "0.10.x",
     "npm": "2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eduwass/flyckr.git"
+  },
+  "dependencies": {
+    "flickrapi": "^0.3.36"
   }
 }
