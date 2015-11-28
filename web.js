@@ -4,7 +4,7 @@ var Flickr = require("flickrapi"),
     flickrOptions = {
       api_key: "d11788aba59195325a5df5ae9f42311e",
       secret: "6e9321af7d60249d",
-      perms: "write",
+      permissions: 'write',
       user_id: "136364753@N05",
       access_token: "72157659372425413-b5dcfca69a344366",
       access_token_secret: "655d2b84fa03e302" 
@@ -23,10 +23,6 @@ Flickr.authenticate(flickrOptions, function(error, flickr) {
           "happy fox",
           "img 1"
         ],
-        photo: __dirname + "/img.jpg"
-      },{
-        title: "img2",
-        tags: "happy fox image \"img 2\" separate tags",
         photo: __dirname + "/img.jpg"
       }]
   };
